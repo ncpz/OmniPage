@@ -24,7 +24,7 @@ a {
 }
 
 .nav-wrapper {
-  background-color: red;
+  background-color: grey;
   display: flex;
   justify-content: space-around;
 }
@@ -63,4 +63,54 @@ a {
     url(./content/hero.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.slogan-wrapper {
+  min-width: 810px;
+}
+
+.slogan {
+  font-size: 45px;
+  color: white;
+  font-weight: 300;
+  word-spacing: 7px;
+  letter-spacing: 4px;
+}
+
+.slogan-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  padding-right: 500px;
+  flex-direction: column;
+}
+
+.div-button {
+  display: inline-block;
+  color: white;
+  border: 1px solid orange;
+  background: transparent;
+  cursor: pointer;
+  min-width: 220px;
+  padding: 5px;
+  text-align: center;
+  margin-right: 20px;
+  min-height: 50px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 20px;
+  border-radius: 100px;
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: flex-start;
+  min-width: 810px;
+}
+
+#main-btn {
+  background-color: orange;
+  min-width: 200px;
 }
